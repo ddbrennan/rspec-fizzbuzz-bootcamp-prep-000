@@ -1,10 +1,10 @@
 def fizzbuzz(int)
-  result = nil
+  result
   if int % 3 == 0
-    result = result.toString + "Fizz"
+    result = result + "Fizz"
   end
   if int % 5 == 0
-    result = result.toString + "Buzz"
+    result = result + "Buzz"
   end
   result
 end
